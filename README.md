@@ -1,3 +1,16 @@
+# Решение задачи для отбора на проект <Модуль проверки задач курса "Автономный транспорт" для Stepik>
+
+Как запустить:
+* установка полностью аналогична установке gym-duckietown, см. ниже
+* ```bash
+  $ python3 looper.py
+  ```
+* можно указывать опции `--backwards`, чтобы робот ехал задним ходом, и `--render-human`, чтобы видеть процесс с камеры робота:
+  ```bash
+  $ python3 looper.py --backwards
+  $ python3 looper.py --render-human
+  ```
+
 # Gym-Duckietown
 
 [![Build Status](https://circleci.com/gh/duckietown/gym-duckietown/tree/master.svg?style=shield)](https://circleci.com/gh/duckietown/gym-duckietown/tree/master) [![Docker Hub](https://img.shields.io/docker/pulls/duckietown/gym-duckietown.svg)](https://hub.docker.com/r/duckietown/gym-duckietown)
